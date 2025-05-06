@@ -48,12 +48,6 @@ const BlogFullPost = () => {
       <div className='flex flex-col sm:flex-col lg:flex-row gap-4 mb-4'>
         <div>
           <div className='max-w-6xl w-full shadow-xl px-4 py-4 rounded-lg'>
-            {/* {signleBlogs.map((blog) => (
-              <div key={blog._id} className='my-4'>
-                <h1 className='font-bold text-center mb-7 text-3xl'>{blog.title}</h1>
-                <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(blog.content) }} />
-              </div>
-            ))} */}
             <div className='my-4'>
               <h1 className='font-bold text-center mb-7 text-3xl'>{singleBlog[0]?.title}</h1>
               <div dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(singleBlog[0]?.content) }} />
@@ -63,6 +57,7 @@ const BlogFullPost = () => {
               <p className='text-base'>Thanks for reading!!!</p>
               <h1 className='font-bold text-large'>Author</h1>
               <span className='font-bold text-large'>Karun Ghimire</span>
+              <p className='text-xs text-gray-400 text-left mt-9'> <span className='text-red-800 font-bold '>Disclaimer: </span> This post's content was generated using AI and is intended solely for educational and demonstration purposes.</p>
             </div>
           </div>
 
