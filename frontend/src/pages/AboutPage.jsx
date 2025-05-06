@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import profilePic from "../assets/myProfile.jpg"
+import profilePic from "../assets/myprofile.jpg"
 
 const AboutPage = () => {
   return (
