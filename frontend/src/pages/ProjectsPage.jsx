@@ -1,6 +1,6 @@
 import React from 'react'
 import ecommerceMock from "../assets/Ecommerce Mock.png"
-import ToDoMock from "../assets/ToDO Mock.png"
+import ToDoMock from "../assets/todomock.png"
 import AuthMock from "../assets/Auth Mock.png"
 import { motion } from "framer-motion"
 const ProjectsPage = () => {
